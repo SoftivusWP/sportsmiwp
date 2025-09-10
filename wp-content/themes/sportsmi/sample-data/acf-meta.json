@@ -417,7 +417,9 @@
                 "allow_null": 1,
                 "ui": 0,
                 "ajax": 0,
-                "placeholder": ""
+                "placeholder": "",
+                "create_options": 0,
+                "save_options": 0
             },
             {
                 "key": "field_5efb0ded987fe",
@@ -442,7 +444,9 @@
                 "allow_null": 0,
                 "ui": 0,
                 "ajax": 0,
-                "placeholder": ""
+                "placeholder": "",
+                "create_options": 0,
+                "save_options": 0
             },
             {
                 "key": "field_5f0d8782e4a95",
