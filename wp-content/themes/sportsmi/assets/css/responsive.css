@@ -1,0 +1,21 @@
+@media (min-width: 991px) {
+    .small-menu{
+        display: none !important;
+    }
+}
+@media (max-width: 767px) {
+    .breadcrumb-area .breadcrumb-content .section-heading {
+        font-size: 36px;
+    }
+}
+@media (max-width: 585px) {
+    .breadcrumb-area .breadcrumb-content .section-heading {
+        font-size: 24px;
+    }
+}
+@media (max-width: 575px) {
+
+}
+@media (max-width: 500px) {
+
+}

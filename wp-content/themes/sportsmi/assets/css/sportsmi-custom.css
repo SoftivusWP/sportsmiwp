@@ -1,0 +1,350 @@
+:root {
+  --tp-common-white: #fff;
+  --tp-common-black: #031220;
+  --tp-common-black-2: #120101;
+  --tp-common-black-3: #0c140f;
+  --tp-common-black-4: #000000;
+  --tp-common-black-5: #0e1133;
+  --tp-common-green: #26c089;
+  --tp-common-green-2: #3e8454;
+  --tp-common-green-3: #27aa4d;
+  --tp-common-green-4: #20ad96;
+  --tp-common-blue: #0e7a31;
+  --tp-common-blue-2: #4270ff;
+  --tp-common-blue-3: #3c66ed;
+  --tp-common-blue-4: #3083ff;
+  --tp-common-cream: #fff1e0;
+  --tp-common-pink: #ff6470;
+  --tp-common-pink-2: #fc4c56;
+  --tp-common-orange: #f37f43;
+  --tp-common-orange-2: #ee6002;
+  --tp-common-orange-3: #ff9f4b;
+  --tp-common-purple: #e33cff;
+  --tp-common-purple-2: #e64dff;
+  --tp-common-yellow: #f5b455;
+  --tp-common-yellow-2: #f47f42;
+  --tp-common-yellow-3: #f4930e;
+  --tp-common-yellow-4: #ffaa2c;
+  --tp-common-yellow-5: #ff8d00;
+  --tp-common-violet: #6151fb;
+  --tp-common-violet-2: #a794c8;
+  --tp-header-primary: #031220;
+  --tp-header-2: #120101;
+  --tp-grey-1: #f1f1f1;
+  --tp-grey-2: #f5f6f8;
+  --tp-grey-3: #f8f8f8;
+  --tp-grey-4: #f7f7f7;
+  --tp-grey-5: #f5f5f5;
+  --tp-grey-6: #dcdcdc;
+  --tp-grey-7: #f9f9f9;
+  --tp-grey-8: #f4fbf9;
+  --tp-grey-9: #f0f8f7;
+  --tp-grey-10: #f3f3f3;
+  --tp-text-body: #49535b;
+  --tp-text-1: #49535b;
+  --tp-text-2: #555c63;
+  --tp-text-3: #777a7c;
+  --tp-text-4: #4b535a;
+  --tp-text-5: #4a545c;
+  --tp-text-6: #6f7377;
+  --tp-text-7: #6b7882;
+  --tp-text-8: #788086;
+  --tp-text-9: #6b737a;
+  --tp-text-10: #828282;
+  --tp-text-11: #5f6160;
+  --tp-text-12: #565958;
+  --tp-text-13: #868d94;
+  --tp-text-14: #56595c;
+  --tp-text-15: #a1a2ab;
+  --tp-theme-1: #0e7a31;
+  --tp-theme-2: #258e46;
+  --tp-theme-3: #007a70;
+  --tp-theme-bg: #0ca94008;
+  --tp-border-1: #dedede;
+
+}
+
+.custom-container {
+  padding: 0 !important;
+  overflow: hidden;
+}
+
+.sec-mar {
+  margin: 120px 0 120px 0;
+}
+
+@media screen and (max-width: 991px) {
+  .sec-mar {
+    margin: 80px 0 80px 0;
+  }
+}
+
+/* Blog details image size */
+/* .postbox__thumb img {
+  width: 100%;
+} */
+.rel-title h2 {
+  position: relative;
+  z-index: 2;
+}
+
+/* Elementor  */
+
+
+
+.admin-bar .header {
+  margin-top: 32px !important;
+}
+
+.admin-bar .header.header-active {
+  margin-top: 32px !important;
+}
+
+/* .admin-bar #header-sticky.header__area.header__transparent {
+  margin-top: 32px;
+} */
+/* 
+.admin-bar .offcanvas__wrapper {
+  margin-top: 32px;
+} */
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+  .admin-bar .header {
+    margin-top: 46px !important;
+  }
+
+  .admin-bar .header.header-active {
+    margin-top: 0px !important;
+  }
+
+  .admin-bar .header .nav__menu.active {
+    margin-top: 25px !important;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .admin-bar .header.header-active {
+    margin-top: 42px !important;
+  }
+}
+
+/* Unit test */
+
+h2.wp-block-heading {
+  line-height: 1.5;
+}
+
+h2.wp-block-post-title {
+  font-size: 36px;
+}
+
+h1.wp-block-site-title a {
+  font-size: 45px;
+}
+
+.wp-block-comments h2#comments {
+  font-size: 45px;
+  line-height: 60px;
+}
+
+a.wp-block-button__link:hover {
+  color: #ddd;
+}
+
+.container-box .postbox__content .postbox__title a {
+  display: block;
+}
+
+
+.breadcrumb-area {
+  padding-top: 30px;
+}
+
+.breadcrumb-area .breadcrumb-content p {
+  color: #bcbcbc;
+  margin-bottom: 24px;
+}
+
+.breadcrumb-area .breadcrumb-content .section-heading {
+  font-size: 56px;
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+  color: #0f0f0f;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: -01px;
+  align-items: center;
+  gap: 5px;
+  margin-top: 2px;
+}
+
+/* Menu */
+
+ul#menu-main-menu li.has-dropdown i {
+  display: inline-block;
+}
+
+ul#menu-main-menu li ul li i {
+  display: none !important;
+
+}
+
+ul#menu-main-menu li ul .dropdown>i {
+  display: inline-block !important;
+  color: #fff;
+}
+
+
+ul#menu-main-menu li i {
+  display: none;
+}
+
+ul#menu-main-menu li ul li ul li i {
+  display: none !important
+}
+
+.menu-item a:hover {
+  color: var(--s1);
+}
+
+ul#menu-main-menu li i {
+  transition: .5s;
+}
+
+ul#menu-main-menu li ul li i {
+  transition: .5s;
+}
+
+ul#menu-main-menu li:hover i {
+  color: var(--s1);
+}
+
+ul#menu-main-menu li ul li:hover i {
+  color: var(--s1);
+}
+
+.footer-copyright a {
+  color: var(--s1);
+  margin-left: 9px;
+  font-size: 18px;
+}
+
+.footer-copyright a:hover {
+  color: var(--p1)
+}
+
+
+
+
+.sec-mar {
+  margin: 120px 0 120px 0;
+}
+
+@media screen and (max-width: 991px) {
+  .sec-mar {
+    margin: 80px 0 80px 0;
+  }
+}
+
+.wc-block-components-notice-banner.is-success {
+  color: var(--tp-theme-1);
+}
+
+.wc-block-components-notice-banner.is-info {
+  border-color: var(--tp-theme-1)
+}
+
+.shop__card-review ul {
+  margin-bottom: unset;
+  padding-left: unset;
+}
+
+span.elementor-edit-link-title {
+  color: #fff;
+}
+
+/* user menu */
+.user_nav {
+  position: relative;
+  z-index: 0;
+  max-width: fit-content;
+}
+
+.user_nav .user_nav_link {
+  align-items: center;
+  gap: 10px;
+  transition: var(--transition);
+  background: transparent;
+}
+
+.user_nav .user_nav_link span {
+  transition: 0s;
+}
+
+.user_nav img {
+  border-radius: 50%;
+}
+
+.user_nav .nav_list {
+  padding: 12px 0;
+  background: var(--primary-color);
+  border-radius: 8px;
+  border: var(--woo-border-1);
+  min-width: 200px;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  box-shadow: 0 2px 7px 1px rgba(0, 0, 0, .05), 0 6px 32px 0 rgba(18, 43, 70, .1);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(30px);
+  pointer-events: none;
+  transition: var(--transition);
+  z-index: 99;
+  list-style-type: none;
+}
+
+.user_nav .nav_list li a {
+  padding: 8px 20px;
+  color: var(--white);
+}
+
+.user_nav:hover .nav_list {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0px);
+  pointer-events: all;
+}
+
+.user_nav .nav_list li a:hover {
+  color: var(--white);
+}
+
+@media screen and (max-width: 1399px) {
+  .user_nav_link img {
+    width: 40px;
+    min-width: 40px;
+    ;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .user_nav_link img {
+    width: 36px;
+    min-width: 36px;
+    height: 36px;
+  }
+
+  .header .nav__logo img {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .header .nav {
+    padding: 16px;
+  }
+
+}
